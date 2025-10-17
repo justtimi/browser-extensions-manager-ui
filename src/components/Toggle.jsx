@@ -1,20 +1,18 @@
 import React from "react";
 
-const Toggle = () => {
-  const [isOn, setIsOn] = React.useState(false);
-
-  const handleToggle = () => {
-    setIsOn(!isOn);
-  };
+const Toggle = ({ isOn, onToggle }) => {
   return (
     <button
-      onClick={handleToggle}
+      onClick={onToggle}
+      role="switch"
+      aria-checked={isOn}
       onKeyDown={(e) => {
         if (e.key === " " || e.key === "Enter") {
           e.preventDefault();
-          handleToggle();
+          onToggle();
         }
-      }} className={`relative inline-flex items-center w-12 h-6 rounded-full p-1 transition-all duration-300 outline-none ${
+      }}
+      className={`relative inline-flex items-center w-12 h-6 rounded-full p-1 transition-all duration-300 outline-none ${
         isOn ? "bg-red-700 justify-end" : "bg-gray-300 justify-start"
       }`}
     >
