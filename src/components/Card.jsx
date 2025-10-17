@@ -3,12 +3,12 @@ import Toggle from "./Toggle";
 
 const Card = ({ extension }) => {
   return (
-    <div className="bg-white p-4 rounded-2xl flex flex-col justify-between">
+    <div className="bg-white p-4 rounded-2xl flex flex-col justify-between h-43">
       <div className="flex gap-4">
         <img src={extension.logo} alt="" className="" />
         <div className="flex flex-col">
           <h3 className="font-bold">{extension.name}</h3>
-          <p>{extension.description}</p>
+          <p className="text-base font-normal">{extension.description}</p>
         </div>
       </div>
 
