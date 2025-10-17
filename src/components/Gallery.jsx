@@ -13,14 +13,14 @@ const Gallery = ({ filter }) => {
 
   const handleToggle = (index) => {
     setExtensions((prev) =>
-      prev.map((ext, i) =>
-        i === index ? { ...ext, isActive: !ext.isActive } : ext
+      prev.map((ext) =>
+        ext.id === index ? { ...ext, isActive: !ext.isActive } : ext
       )
     );
   };
 
   const handleRemove = (index) => {
-    setExtensions((prev) => prev.filter((_, i) => i !== index));
+    setExtensions((prev) => prev.filter((ext) => ext.id !== index));
   };
 
   const filteredExtensions = extensions.filter((ext) => {
@@ -34,12 +34,12 @@ const Gallery = ({ filter }) => {
       {filteredExtensions.length === 0 ? (
         <p>No extensions found.</p>
       ) : (
-        filteredExtensions.map((item, i) => (
+        filteredExtensions.map((item) => (
           <Card
-            key={i}
+            key={item.id}
             extension={item}
-            onToggle={() => handleToggle(i)}
-            onRemove={() => handleRemove(i)}
+            onToggle={() => handleToggle(item.id)}
+            onRemove={() => handleRemove(item.id)}
           />
         ))
       )}

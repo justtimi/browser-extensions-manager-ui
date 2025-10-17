@@ -22,7 +22,7 @@ const Home = () => {
               key={opt.value}
               onClick={() => setFilter(opt.value)}
               className={`cursor-pointer rounded-full px-4 font-medium py-2 border border-gray-400 
-                ${filter === opt.value ? "bg-gray-800 text-white" : "bg-white text-gray-700"}`}
+                ${filter === opt.value ? "bg-red-700 text-white" : "bg-white text-gray-700"}`}
             >
               {opt.label}
             </li>
