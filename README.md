@@ -12,7 +12,6 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -88,13 +87,10 @@ I am still really trying to study how to pass state from the parent components t
 
 Then, although not right now, because I still ahve a lot on my plate, but later on, I woud like to learn asynchronous programming with JavaScript in fuller detail, so that I can work with APIs efficiently and effectively. 
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Github Profile - [Timileyin Afolayan](https://github.com/justtimi)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/justtimi)
-- LinkedIn - [@yourusername](www.linkedin.com/in/timileyin-afolayan-07725a334)
+- Frontend Mentor - [@justtimi](https://www.frontendmentor.io/profile/justtimi)
+- LinkedIn - [Timileyin Afolayan](https://www.linkedin.com/in/timileyin-afolayan-07725a334)
