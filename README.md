@@ -95,6 +95,6 @@ Then, although not right now, because I still ahve a lot on my plate, but later 
 
 ## Author
 
-- Website - [Timileyin Afolayan](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
+- Github Profile - [Timileyin Afolayan](https://github.com/justtimi)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/justtimi)
+- LinkedIn - [@yourusername](www.linkedin.com/in/timileyin-afolayan-07725a334)
